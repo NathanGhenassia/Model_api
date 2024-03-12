@@ -86,7 +86,7 @@ async def predict(
         # prediction = model.predict(df)
         return JSONResponse(
             status_code=status.HTTP_200_OK,
-            content=1
+            content="B"
         )
     except Exception as e:
         raise HTTPException(
